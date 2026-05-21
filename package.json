@@ -1,0 +1,14 @@
+{
+  "name": "sooapi-docs",
+  "version": "1.0.0",
+  "description": "SooAPI Documentation",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.3.0"
+  }
+}
