@@ -1,7 +1,6 @@
 {
-  "framework": null,
-  "buildCommand": null,
+  "framework": "vitepress",
+  "buildCommand": "npm install && npx vitepress build",
   "outputDirectory": ".vitepress/dist",
-  "installCommand": "echo skip",
-  "devCommand": "echo skip"
+  "installCommand": "npm install"
 }
