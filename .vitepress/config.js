@@ -5,11 +5,11 @@ export default defineConfig({
   description: '详细介绍 SooAPI 中转服务在 Claude Code、Codex、Gemini 等主流 CLI 中的详细使用方法。',
   srcDir: '.',
   head: [
-    ['link', { rel: 'icon', href: '/logo.webp' }],
+    ['link', { rel: 'icon', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
-    logo: '/logo.webp',
+    logo: '/logo.svg',
     siteTitle: 'SooAPI 使用文档',
     nav: [
       { text: '使用指南', link: '/docs/register/' },

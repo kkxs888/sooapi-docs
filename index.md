@@ -7,7 +7,7 @@ hero:
   text: 统一入口，连接全部大模型
   tagline: 详细介绍 SooAPI 中转服务在 Claude Code、Codex、Gemini 等主流 CLI 中的详细使用方法。
   image:
-    src: /logo.webp
+    src: /logo.svg
     alt: SooAPI
   actions:
     - theme: brand
