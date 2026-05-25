@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '使用指南', link: '/docs/register/' },
       { text: 'API 文档', link: '/docs/api/chat-completion' },
       { text: 'SooAPI 官网', link: 'https://sooapi.com', attrs: { target: '_blank' } },
-      { text: '服务监控', link: 'https://check.linux.do/group/SooAPI', attrs: { target: '_blank' } },
+
     ],
     sidebar: {
       '/docs/': [
