@@ -2,5 +2,19 @@
   "framework": "vitepress",
   "buildCommand": "npm install && npx vitepress build",
   "outputDirectory": ".vitepress/dist",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/docs/policies/privacy",
+      "destination": "/docs/policies/privacy.html"
+    },
+    {
+      "source": "/docs/policies/terms",
+      "destination": "/docs/policies/terms.html"
+    },
+    {
+      "source": "/docs/policies/agreement",
+      "destination": "/docs/policies/agreement.html"
+    }
+  ]
 }
