@@ -220,7 +220,7 @@ SooAPI 平台提供的 AI 模型 API 中转服务，包括：
 
 如有任何疑问，请通过以下方式联系我们：
 
-- **电子邮件**：support@sooapi.com
+- **电子邮件**：ai@sooapi.com
 - **官方网站**：https://sooapi.com
 
 ---
