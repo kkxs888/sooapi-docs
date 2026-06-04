@@ -14,8 +14,8 @@ export default defineConfig({
     nav: [
       { text: '使用指南', link: '/docs/register/' },
       { text: 'API 文档', link: '/docs/api/chat-completion' },
+      { text: '政策条款', link: '/docs/policies/privacy' },
       { text: 'SooAPI 官网', link: 'https://sooapi.com', attrs: { target: '_blank' } },
-
     ],
     sidebar: {
       '/docs/': [
@@ -41,6 +41,14 @@ export default defineConfig({
           text: '常见问题',
           items: [
             { text: '疑难解答', link: '/docs/faq/' },
+          ]
+        },
+        {
+          text: '政策条款',
+          items: [
+            { text: '隐私政策', link: '/docs/policies/privacy' },
+            { text: '服务条款', link: '/docs/policies/terms' },
+            { text: '使用协议', link: '/docs/policies/agreement' },
           ]
         }
       ]
